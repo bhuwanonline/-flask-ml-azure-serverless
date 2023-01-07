@@ -25,5 +25,6 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://bhuwan-flask-ml-services.azurewebsites.net:$PORT/predict 
-     #your application name <yourappname>goes here
+     -X POST https://bhuwan-flask-ml-services.azurewebsites:$PORT/predict
+     # TODO: Replace the <yourappname> with your application name
+     
